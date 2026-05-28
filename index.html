@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="(b. 1999, Villeneuve-Saint-Georges, France) live and work in Paris. I studied at the Städelschule in Frankfurt-am-Main with prof. Haegue Yang until 2025, at the Gerrit Rietveld Academie in Amsterdam until 2022,  and at the Villa Arson in Nice until 2020. My work has been presented in venues such as Komplex Gallery (Seoul, 2026) Kunstistituut Melly (Rotterdam, 2025), Vietnam Art Collection (Hanoi, 2025), La Grainaterie Centre d’art (Houilles, 2025) Delfina Foundation (London 2023); Center for Contemporary Art (Karlsruhe, 2023) and Zone2Source, (Amsterdam 2021).">
+<title>Etienne Le Coquil</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'arial', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #d4d4d4;
+    background: #141414;
+    padding: 40px;
+  }
+  a { color: #d4d4d4; text-decoration: underline; cursor: pointer; }
+  a:hover { color: #555; }
+  header { margin-bottom: 40px; }
+  h1 { font-size: 15px; font-weight: 300; color: #33ff01;}
+  nav { margin-top: 4px; }
+  nav a { margin-right: 16px; text-decoration: none; font-weight: 300; }
+  nav a.active { text-decoration: underline; }
+  .page { display: none; }
+  .page.active { display: block; }
+  hr { border: none; border-top: 1px solid #c5c5c555; margin: 20px 0; }
+  .work-row { font-size: 13px; margin-bottom: 6px; }
+  .work-row a { text-decoration: none; }
+  .work-row a:hover { text-decoration: underline; }
+  .work-meta { color: #b9b9b9; font-size: 11px; }
+  .about-text { max-width: 100%; }
+  .about-text p { margin-bottom: 16px; }
+  .cv-row { display: flex; gap: 24px; margin-bottom: 4px; }
+  .cv-year { color: #888; min-width: 40px;display: block; margin: 0%;}
+  .responsive-image { width: 45%; height: auto; flex-wrap: wrap;}
+  .video-container { position: relative; width: 40%; padding-bottom: 22.5%; /* 16:9 ratio */ }
+  .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+  .video-loop { width: 40%; height: auto; display: block;  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><a onclick="show('home')" style="text-decoration: none; color: #8dff01;">etienne le coquil</a></h1>
+  <nav>
+    <a onclick="show('works')" id="nav-works">works</a>
+    <a onclick="show('about')" id="nav-about">about</a>
+    <a onclick="show('contact')" id="nav-contact">contact</a>
+  </nav>
+</header>
+
+<hr>
+
+<!-- HOME -->
+<div class="page active" id="home">
+  <img src="etienne le coquil/Images/Louis.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-meta"> Louis Hay just so hot on the Pont du Carrousel -260526</div> 
+  <br>
+  <img src="etienne le coquil/Images/MuyeongKim1.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <img src="etienne le coquil/Images/MuyeongKim2.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-meta"> Made me want to get locked up inside the eel black box! Show by Muyeong Kim and Louis-Léopold Boilly at Abraham & Wolff Paris -260526</div> 
+  <br>
+  <video class="video-loop" autoplay muted loop src="etienne le coquil/Videos/ADHD.MP4" ></video>
+  <div class="work-meta"> ADHD meds with Louis Hay -240526</div> 
+  <br>
+  <img src="etienne le coquil/Images/préhistoire1.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <img src="etienne le coquil/Images/préhistoire2.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <img src="etienne le coquil/Images/préhistoire3.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <img src="etienne le coquil/Images/préhistoire4.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-meta"> Musée de Préhistoire d'Ile-de-France with Ida Doutriaux, Sébastien Staels and Léon Nullans -240526</div> 
+  <br>
+  <img src="etienne le coquil/Images/Marianna.escobar.JPG" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-meta"> Marianna Escobar at the opening ^^ -230526</div> 
+  <br>
+  <img src="etienne le coquil/Images/aietienneoil1.jpg" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <img src="etienne le coquil/Images/aietienneoil2.jpg" alt="ai???" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-meta"> ????????? -220526</div>
+  <br>
+
+</div>
+
+<!-- WORKS -->
+<div class="page" id="works">
+  <img src="work/Images/Untitled(nostalgie artificielle).JPG" alt="Untitled (Nostalgie Artficielle)" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a>Untitled (Nostalgie Artificielle)</a> <br><span class="work-meta"> 2025, not printed yet. </span></div>
+  <br>
+  <img src="work/Images/Blue1.jpg" alt="Untitled (pt.1)" class="responsive-image" onclick="requestFullscreen()">
+  <img src="work/Images/Blue2.jpg" alt="Untitled (pt.1)" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a>Untitled (pt.1)</a> <br><span class="work-meta"> 2025, C-type print on mat paper in artist frame, 72 x 59 x 1cm. <br>Städelschule, Frankfurt am Main, Germany. <br>Photo credit: Etienne Le Coquil</span></div>
+  <br>
+  <img src="work/Images/Delfina1.JPG" alt="Untitled II" class="responsive-image" onclick="requestFullscreen()">
+  <img src="work/Images/Delfina2.JPG" alt="Untitled II" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a> Untitled II</a> <br><span class="work-meta"> 2023, video on Nintendo Switch, 24 x 10 x 3 cm, no sound, 6:10 loop. <br> Delfina Foundation, London, United Kingdom. <br>Photo credit: Augustine Parades</span></div>
+  <br>
+  <img src="work/Images/Arson2.JPG" alt="Arson" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a> Arson</a> <br><span class="work-meta"> 2022, wood shavings, yoga mat, silicon, sofa, Nintendo Switch, Sunscreens, 686 x 686 x 343 cm. <br> Rietveld Pavilion, Gerrit Rietveld Academie, Amsterdam, The Netherlands. <br>Photo credit: Etienne Le Coquil & Tom Dulou</span></div>
+  <br>
+  <img src="work/Images/Immaculate1.JPG" alt="Immaculate" class="responsive-image" onclick="requestFullscreen()">
+  <img src="work/Images/Immaculate2.JPG" alt="Immaculate" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a>Immaculate</a> <br><span class="work-meta"> 2020, wood, ceramic tiles, silicone, sunflower oil, Damien Troadec, variable dimensions, projection, sound, 40:00. <br>Villa Arson, Nice, France. <br>Photo credit: Etienne Le Coquil</span></div>
+  <br>
+  <img src="work/Images/Rosa.JPG" alt="mother" class="responsive-image" onclick="requestFullscreen()">
+  <div class="work-row"><a>Rose</a> <br><span class="work-meta"> 2020, pork gelatin, 29 x 20 x 20 cm. <br>Villa Arson, Nice, France. <br>Photo credit: Etienne Le Coquil</span></div>
+
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="about">
+  <div class="about-text">
+    <p>(b. 1999, Villeneuve-Saint-Georges, France) live and work in Paris. 
+       I studied at the Städelschule in Frankfurt-am-Main with prof. Haegue Yang until 2025, 
+       at the Gerrit Rietveld Academie in Amsterdam until 2022,  and at the Villa Arson in Nice until 2020. 
+       My work has been presented in venues such as Komplex Gallery (Seoul, 2026) Kunstistituut Melly (Rotterdam, 2025), 
+       Vietnam Art Collection (Hanoi, 2025), La Grainaterie Centre d’art (Houilles, 2025) Delfina Foundation (London 2023); 
+       Center for Contemporary Art (Karlsruhe, 2023) and Zone2Source, (Amsterdam 2021).</p>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="contact">
+  <p><a href="mailto:etiennelecoquil@proton.me" style="text-decoration: none;">etiennelecoquil@proton.me</a></p>
+  <pre style="font-size: 15px; line-height: 1.2; font-family: monospace;">
+⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠖⠉⠉⠉⠁⢈⣽⣟⠲⣄⠀⠀⠀⠀⣠⠤⣄⣀⣀⡀⠀⠀⠀⠀
+⢰⠀⠀⠀⠀⠀⣾⢿⣿⠀⣇⠀⠀⠀⢰⠃⣰⣶⣦⠀⠉⠓⠤⣀⠀
+⠈⡄⠀⠀⠀⣴⠟⣟⡇⠀⡟⠀⠀⢠⡏⠀⣿⣿⡿⠀⠀⠀⠀⠈⠇
+⠀⢱⠀⣀⡼⠹⡀⡼⠀⠰⡇⠀⠀⣸⠇⠀⡗⠋⣧⠀⠀⠀⠀⡸⠀
+⠀⠘⠈⠸⡇⠀⠘⢥⠀⠀⢻⣀⡼⠁⠀⠠⡃⠔⠹⡄⠀⢀⡜⠁⠀
+⠀⠀⠀⠀⠹⡀⠀⣀⣤⠤⣬⠥⢄⠀⠐⠋⠀⠀⡴⠍⠣⡘⠀⠀⠀
+⠀⠀⠀⢀⣼⠚⠉⡁⠀⠀⠙⠒⢄⡈⠠⡈⠢⡊⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⢠⡟⠁⠀⢰⠁⠀⠀⠀⠀⠀⠀⠀⠈⢢⣇⠀⠀⠀⠀⠀⠀⠀
+⠀⣀⣿⡔⢀⣀⣾⡀⠀⠀⢀⠄⠀⠀⢠⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀
+⠀⢼⢹⢳⣿⣿⣿⣿⡆⢀⠆⣠⣴⣦⣾⡀⢣⠸⠀⠀⠀⠀⠀⠀⠀
+⢀⣰⠎⢸⣿⣿⣿⡿⠁⡆⡆⣿⣿⣿⣿⣷⣠⡀⠀⠀⠀⠀⠀⠀⠀
+⢎⡁⠀⠀⠀⠏⠁⢠⡾⢷⡇⠈⢿⢿⣿⣿⢸⡏⠀⠀⠀⠀⠀⠀⠀
+⠈⢷⣤⣤⣤⡀⠄⠀⠁⠈⠛⠀⠀⠸⠁⠉⠀⠳⡄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢈⡷⢧⣀⡀⡄⢀⠀⠋⣽⡷⠦⣤⡴⠞⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠘⠷⢦⢧⣥⣏⣹⣱⣾⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+</pre>
+</div>
+
+<script>
+  function show(name) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.querySelectorAll('nav a').forEach(a => a.classList.remove('active'));
+    document.getElementById(name).classList.add('active');
+    document.getElementById('nav-' + name).classList.add('active');
+  }
+</script>
+</body>
+</html>
